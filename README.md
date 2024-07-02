@@ -4,12 +4,12 @@ npx create-next-app@latest app-crud2
 ```
 
 #### Caso erro ver requisitos
-##### verificar a versão
+##### Verificar a versão
 ```
 node --version
 ```
 
-##### instalar o next global
+##### Instalar o next global
 ```
 npm install create-next-app@latest -g
 ```

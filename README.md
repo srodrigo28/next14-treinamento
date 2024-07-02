@@ -14,9 +14,14 @@ npm install create-next-app@latest -g
 npx create-next-app@latest app-crud2
 ```
 
-#### npm start
+#### Rodando o projeto
 ```
     npm run dev
+```
+
+* Caso baixe do github primeiro rodar o comando para rodar as dependências
+```
+    npm install
 ```
 
 #### Dependências

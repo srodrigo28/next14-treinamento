@@ -48,12 +48,22 @@ npx shadcn-ui@latest add dropdown-menu
 npx shadcn-ui@latest add card
 ```
 
+* input
+``` 
 npx shadcn-ui@latest add input
+``` 
 
+* label
+``` 
 npx shadcn-ui@latest add label
+``` 
 
+* select
+``` 
 npx shadcn-ui@latest add select
 
+* button
+``` 
 npx shadcn-ui@latest add button
 
 

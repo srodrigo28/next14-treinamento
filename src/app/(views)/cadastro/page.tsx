@@ -14,22 +14,32 @@ interface SelectProps{
 }
 
 export default function Cadastro( props: SelectProps){
+    const [nome, setNome] = useState('')
     const [sexo, setSexo] = useState('')
     return(
         <Layout>
             <h1>Cadastro</h1>
 
             <div className="flex">
-                    <form className="bg-gray-500 p-3 m-3 flex flex-col gap-3">
+                    <form className="bg-gray-500 p-3 m-3 flex flex-col gap-3 rounded-t-2xl pt-10 px-10">
                         
-                        <input className="p-3" type="text" placeholder="nome completo" />
+                        <input 
+                            type="text" 
+                            value={nome}
+                            onChange={ e => setNome(e.target.value) }
+                            placeholder="nome completo"
+                            className="p-3" 
+                        />
 
                         <select className="p-3" value={sexo} onChange={ text => setSexo(text.target.value) }>
                             <option value="feminino">feminino</option>
                             <option value="masculino">masculino</option>
                         </select>
 
-                        <p className="mt-10 p-10 bg-blue-400"> {sexo} </p>
+                        <p className="mt-5 p-5 bg-gray-600 rounded-t-xl text-white"> 
+                            <span className="text-sm"> Nome: {nome} </span> <br />
+                            <span className="text-sm"> Sexo: {sexo} </span>
+                        </p>
                     </form>
 
                     <Card className="w-[350px]">

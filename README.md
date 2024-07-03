@@ -38,9 +38,24 @@ https://www.npmjs.com/package/@tabler/icons-react
 npx shadcn-ui@latest init
 ```
 
+* menu
 ```
 npx shadcn-ui@latest add dropdown-menu
 ```
+
+* card
+``` 
+npx shadcn-ui@latest add card
+```
+
+npx shadcn-ui@latest add input
+
+npx shadcn-ui@latest add label
+
+npx shadcn-ui@latest add select
+
+npx shadcn-ui@latest add button
+
 
 #### Referências 1:30
 ```

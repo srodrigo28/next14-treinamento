@@ -1,4 +1,4 @@
-import { IconExchangeOff, IconVideoMinus } from "@tabler/icons-react";
+import { IconExchangeOff, IconInputX, IconVideoMinus } from "@tabler/icons-react";
 import { ElementType } from "react";
 import Link from "next/link";
 
@@ -22,6 +22,7 @@ export default function Menu(){
         <aside className="w-72 bg-blue-700 h-screen">
             <nav className="flex flex-col gap-2 py-2 px-3">
                 <ItemMenu icone={IconVideoMinus} label="Treinamentos" url="/aula" />
+                <ItemMenu icone={IconInputX} label="Cadastro" url="/cadastro" />
                 <ItemMenu icone={IconExchangeOff} label="Sair" url="/" />
             </nav>
         </aside>

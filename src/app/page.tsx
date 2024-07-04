@@ -16,10 +16,10 @@ export default function Home() {
                 Login
             </div>
 
-            <div className=" w-auto h-auto bg-blue-500 p-10 rounded-b-xl">
+            <div className="w-96 h-auto bg-blue-500 p-10 rounded-b-xl">
                 <form className="flex flex-col gap-3">
-                  <input className="outline-none p-3 rounded-md text-xl text-black font-bold h-10" type="text" placeholder="E-mail" />
-                  <input className="outline-none p-3 rounded-md text-black font-bold" type="password" placeholder="Senha" />
+                  <input className="outline-none p-3 rounded-md text-md text-black font-bold h-10" type="text" placeholder="E-mail" />
+                  <input className="outline-none p-3 rounded-md text-md text-black font-bold" type="password" placeholder="Senha" />
                   <button className="p-3 rounded-md bg-blue-600 text-white hover:bg-blue-700" onClick={validar}>Entrar </button>
                   <Link 
                       href="/cadastro" 

@@ -1,4 +1,7 @@
 #### Criando projetos NextJS
+* Filter
+* Reducer
+* Map
 ```
 npx create-next-app@latest app-crud2
 ```

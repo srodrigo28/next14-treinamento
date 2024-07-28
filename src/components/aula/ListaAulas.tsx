@@ -2,13 +2,8 @@ import Aula from "@/core/model/Aula";
 import Duracao from "@/core/utils/Duracao";
 import StatusAula from "./AulaStatus";
 
-interface LinhaAulaProps{
-    aula: Aula
-}
-
-interface ListaAulaProps{
-    aulas: Aula[]
-}
+interface LinhaAulaProps{ aula: Aula }
+interface ListaAulaProps{ aulas: Aula[] }
 
 function LinhaAula(props : LinhaAulaProps){
     return(
